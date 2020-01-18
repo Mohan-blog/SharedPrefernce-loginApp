@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SharedpreferenceloginAct</string>
+    <string name="user_name">mohan</string>
+    <string name="password">sunil</string>
+    <string name="login_preference">com.adteccorp.sharedpreferenceloginact_loginpreference</string>
+    <string name="login_status">com.adteccorp.sharedpreferenceloginact_loginstatus</string>
+</resources>

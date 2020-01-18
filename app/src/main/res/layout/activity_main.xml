@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#FFD600"
+
+    tools:context="com.adteccorp.sharedpreferenceloginact.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Registration Form"
+        android:textSize="30dp"
+        android:layout_margin="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Name"
+        android:id="@+id/username"
+        android:layout_margin="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PassWord"
+        android:id="@+id/password"
+        android:layout_margin="30dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loginbtn"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:layout_margin="50dp"
+        android:textSize="40dp"/>
+
+
+
+
+</LinearLayout>
